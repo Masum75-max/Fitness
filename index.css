@@ -155,6 +155,9 @@ nav .logo{
 }
 
 @media  screen and (max-width:576px) {
+ header{
+  height:1029px;
+ }
   .nav-items{
     display: none;
   }

@@ -158,6 +158,12 @@ nav .logo{
  header{
   height:1029px;
  }
+ nav{
+  height: 7%;
+ }
+ .hero .banner-text .banner-text-heading{
+  font-size: 45px;
+ }
   .nav-items{
     display: none;
   }

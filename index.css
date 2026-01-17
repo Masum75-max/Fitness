@@ -155,6 +155,30 @@ nav .logo{
 }
 
 @media  screen and (max-width:576px) {
-  
+  .nav-items{
+    display: none;
+  }
+  .hero{
+    flex-direction: column;
+    gap:0px;
+  }
+
+  .hero .banner-text{
+    width:100%;
+    height:50%;
+    flex-direction: column;
+    
+   
+  }
+ .banner-text-button-container{
+  margin-top: 5%;
+ justify-content: space-around;
+ }
+
+  .hero .banner-image{
+    height: 50%;
+    margin:00px auto;
+    width:40%;
+  }
 }
 

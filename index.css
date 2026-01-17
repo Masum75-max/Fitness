@@ -178,7 +178,20 @@ nav .logo{
   .hero .banner-image{
     height: 50%;
     margin:00px auto;
-    width:40%;
+    width:50%;
+  }
+  .card2{
+    height: 7%;
+    width:30%;
+    bottom:10%;
+    left:10%;
+    border-radius: 10px;
+  }
+  .card1{
+    height: 7%;
+    width:30%;
+    bottom:30%;
+    border-radius: 10px;
   }
 }
 

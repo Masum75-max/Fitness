@@ -128,5 +128,33 @@ nav .logo{
   color: #111111;
 }
 
+.card1 , .card2{
+  height:100px;
+  width:200px;
+   background: rgba(95, 94, 94, 0.45);   /* semi-transparent */
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  position:absolute;
+  z-index: 1;
+  color:aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
+}
+
+.card1{
+  right:90px;
+  
+}
+
+.card2{
+  bottom:50px;
+  right: 350px;
+}
+
+@media  screen and (max-width:576px) {
+  
+}
 
